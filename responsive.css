@@ -1,0 +1,410 @@
+@media (max-width:600px) {
+    .navbar{
+        width: 100%;
+        height: 60px;
+    }
+
+    .navli{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    #search{
+        display: none;
+    }
+    .navRight{
+        width: 100%;
+    }
+    .navleft{
+        display: none;
+    }
+    .logo h1{
+        text-align: center;
+        font-size: 1.5rem;
+        width: 100%;
+        margin-left: 1.5rem
+    }
+    nav i{
+        display: block;
+        font-size: 5vw;
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        z-index: 1;
+        color: white;
+    }
+   
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+    }
+    #hi{
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        font-size: 25px;
+    }
+    .navRight{
+        display: flex;
+        
+    }
+ul li{
+
+    font-size: 3.5vw;
+}
+
+    #listItems{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    left: -8px;
+        
+    }
+    .heroSection{
+        width: 100%;
+        height: 80vh;
+      
+    }
+    .herocontent {
+        width: 100%;
+    }
+    .herocontent h1{
+        font-size: 1.6rem;
+        text-align: center;
+        line-height: 2.3rem;
+    }
+    .herocontent p{
+        font-size: 0.6rem;
+        text-align: center;
+        line-height: 0.7rem;
+    }
+    .herobtn{
+        padding: 7px 7px;
+        font-size: 0.7rem;
+        border-radius: 5px;
+    }
+    .herobtn i{
+        font-size: 0.6rem;
+    }
+    .wrapper h2{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 0px;
+    } 
+    .cards{
+        max-width: 80%;
+        margin-top: 0px;
+        margin-left: 2rem;
+    }
+    .secondContainer{
+        height: 50vh;
+    }
+    .secondContainer h1{
+        font-size: 1.5rem;
+    }
+    .secondContainer p{
+        font-size: 0.5rem;
+    }
+    .secondcontainercontent{
+        width: 80%;
+    }
+    .thirdContainer h1{
+        font-size: 1.5rem;
+    }
+    .thirdContainer p{
+        font-size: 0.5rem;
+        line-height: 0.7rem;
+    }
+    .info{
+        position: relative;
+    margin-top: -2rem;
+    }
+    .musicplayer{
+        height: 90vh;
+        flex-direction: column;
+        margin-top: 0px;
+        align-items: center;
+    }
+    .leftside{
+        width: 100%;
+    }
+    .leftcontainerrightside{
+        width: 20%;
+    }
+    .leftcontainerleftside{
+        width: 80%;
+    }
+    .leftcontainer{
+        width: 97%;
+        margin-top: -2rem;
+    }
+    #para{
+        font-size: 0.5rem;
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+    }
+    .icons {
+        gap: 0.5rem;
+    margin-left: 2rem;
+    }
+    .icons i{
+        font-size: 1rem;
+    }
+    .albumname{
+        font-size: 0.8rem;
+    }
+    .albumstype{
+        font-size: 0.4rem;
+     text-align: start;
+       
+    }
+    .rightside{
+        width: 100%;
+        position: relative;
+        margin-top: -2rem;
+        
+    }
+    #volbar{
+        width: 22%;
+    height: 3px;
+    position: absolute;
+    bottom: 118px;
+    left: 240px;
+    z-index: 10;
+    }
+    .playbtn{
+        padding: 5px 10px;
+    }
+    .playbtn i{
+        font-size: 1rem;
+    }
+    .wrapperdiv2{
+        position: relative;
+        margin-top: 20rem
+    }
+    .wrapperdiv2 h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .wrapperdiv2 p{
+        font-size: 0.5rem;
+    } 
+    .fourthcontainercard {
+        height: 370px;
+        width: 285px;
+    }
+    .fourthcontainer{
+        max-width: 288px;
+    }
+    .fourthcontainercard img{
+        height: 250px;
+        width: 250px;
+    }
+    .fourthcontainercard h3{
+        font-size: 1rem;
+    }
+    .fourthcontainercard p {
+        font-size: 0.6rem;
+    }
+    .fifthcontainer{
+        height: 50vh;
+    }
+    .fifthcontainercontent{
+        width: 80%;
+    }
+    .fifthcontainercontent h1{
+        font-size: 1.6rem;
+    }
+    .herocontent{
+        width: 80%;
+    }
+    .fifthcontainercontent p{
+font-size: 0.5rem;
+line-height: 0.7rem;
+    }
+    .fifthcontainer button{
+        padding: 6px 8px;
+        font-size: 0.8rem;
+        margin-top: -16px;
+    }
+    .headcontent{
+        font-size: 1.5rem;
+        
+    }
+    .headpara{
+        font-size: 0.5rem;
+    }
+    .sixthcontainer{
+        height: 90vh;
+        width: 100%;
+        flex-direction: column;
+    }
+    .sixthcontainerleftside{
+        width: 100%;
+    height: 100%;
+    }
+    .sixthcontainerrightside{
+        width: 95%;
+        height: 100%;
+    }
+    .video img{
+        height: 80px;
+        width: 80px;
+    }
+    .video{
+        height: 6rem;
+    }
+    .video p{
+        font-size: 0.6rem;
+    }
+    span{
+        font-size: 0.5rem;
+        position: relative;
+        margin-right: 0.5rem;
+    }
+    .video i{
+        font-size: 0.5rem;
+    }
+    #videoplayer{
+        position: absolute;
+    height: 50vh;
+    width: 95%;
+    object-fit: cover;
+    display: none;
+    margin-top: -3rem;
+    }
+    .seventhcontainer{
+        height: 50vh;
+    }
+    .seventhcontainerheading{
+width: 80%;
+    }
+    .seventhcontainer h1{
+        font-size: 1.6rem;
+    }
+    .seventhcontainer p{
+        font-size: 0.5rem;
+        line-height: 0.8rem;
+    }
+    .features{
+        height: 50px;
+        width: 50px;
+    }
+    .features i{
+        font-size: 1.2rem;
+    }
+    .eightcontainerheading h1 {
+        font-size: 1.5rem;
+    }
+    .eightcontainerheading p{
+        font-size: 0.5rem;
+        line-height: 0.8rem;
+        margin-right: 0px;
+    }
+    marquee img{
+        height: 80px;
+        width: 80px;
+    }
+    footer{
+        flex-direction: column;
+        height: 60vh;
+        padding: 5px;
+        
+    }
+    .div1{
+        width: 80%;
+        margin-bottom: 15px;
+        
+    }
+    .icons{
+        position: relative;
+        top: 3px;
+    }
+    ul li{
+        text-align: center;
+        font-size: 0.6rem;
+    }
+    .div1 h1{
+      font-size: 1.5rem;
+    
+    }
+    .div1 p{
+        font-size: 0.5rem;
+    }
+    .div2{
+        width: 80%;
+        
+        margin-bottom: 10px;
+    }
+    .div2 h2{
+        font-size: 0.8rem;
+    }
+    .div3{
+        width: 80%;
+        
+        margin-bottom: 10px;
+    }
+    .div3 h2{
+        font-size: 0.8rem;
+    }
+    .div4{
+        width: 80%;
+        
+        margin-bottom: 10px;
+    }
+    .div4 h2{
+        font-size: 0.8rem;
+    
+}
+ul{
+    margin-top: -15px;
+}
+.icons img {
+    height: 1.8rem;
+    width:1.8rem;
+    
+}
+.footer{
+    height: 2.5rem;
+    text-align: center;
+   
+    
+}
+.footer p{
+    font-size: 0.6rem;
+}
+}
+@media (max-width:600px) and (min-width:420px){
+    .wrapperdiv2{
+        margin-top: 24rem;
+    }
+}
+@media (max-width:1400px) and (min-width:600px) {
+    ul li{
+        font-size: 1.5vw;
+    }
+    .btn{
+        display: none;
+    }
+    .navleft{
+        width: 30%;
+    }
+    .navRight{
+        width: 70%;
+    }
+    #search{
+        width: 80%;
+    }
+ .logo h1{
+    font-size: 1.6rem;
+ }
+    
+}
