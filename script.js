@@ -1,10 +1,11 @@
 window.addEventListener("DOMContentLoaded",()=>{
 let navbar=document.querySelector(".navbar");
 let navIcon=document.querySelector("#hi");
-let li=document.querySelectorAll("ul li");
+let navli=document.querySelectorAll(".navli");
 let logo=document.querySelector(".logo h1");
-let listItems=document.querySelector("#listItems");
+let listItems=document.querySelector("#listItems li");
 let lastScrollTop = 0;
+
 
 
 window.addEventListener('scroll', function() {
@@ -22,7 +23,7 @@ navIcon.addEventListener("click",()=>{
         navbar.style.backgroundColor='black';
         navbar.style.height='60%';
         navbar.style.transition='1s ease-in-out';
-        li.forEach(list=>{
+        navli.forEach(list=>{
             list.style.color="white"; 
             list.style.display='block';
             navIcon.style.color='white';
@@ -39,10 +40,11 @@ navIcon.addEventListener("click",()=>{
             navbar.style.backgroundColor='black';
             navIcon.style.color='white';
             logo.style.color="white";
-            navIcon.style.marginRight="3rem"
-            li.forEach(list=>{
+            navIcon.style.marginRight="2rem"
+           navli.forEach(list=>{
                 list.style.color="white"; 
-                // list.style.display='none';
+                list.style.display='none';
+               
               
                
                 
